@@ -15,7 +15,6 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->string('description');
-            $table->string('location');
             $table->string('user_email');
             $table->string('start_date');
             $table->string('end_date');

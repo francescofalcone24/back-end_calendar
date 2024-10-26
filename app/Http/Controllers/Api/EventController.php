@@ -35,7 +35,6 @@ class EventController extends Controller
 
             'title' => 'required',
             'description' => 'required',
-            'location' => 'required',
             'user_email' => 'required|email',
             'start_date' => 'required',
             'end_date' => 'required',
