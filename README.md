@@ -18,9 +18,10 @@ Questo git-template fornisce lo scaffold di una web application realizzata con L
     composer install
 	php artisan key:generate
 	```
- - Installare anche le dipendenze NPM
+ - Installare anche le dipendenze NPM e fare l'update 
 	```bash
 	npm i
+	npm update
 	```
 - Ri-controllare che tutti i dati nel `.env` siano corretti (attenzione al database!)
 - Lanciare migrazioni e seeder
@@ -35,13 +36,5 @@ Questo git-template fornisce lo scaffold di una web application realizzata con L
 	```bash
 	npm run dev
 	```
-### .env
-	```bash
-	DB_CONNECTION=mysql
-	DB_HOST=127.0.0.1
-	DB_PORT=3306
-	DB_DATABASE=calendar
-	DB_USERNAME=root
-	DB_PASSWORD=
-	```
+
 
